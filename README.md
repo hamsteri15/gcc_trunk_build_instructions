@@ -9,6 +9,10 @@ git clone git://gcc.gnu.org/git/gcc.git SomeLocalDir
 ```
 cd SomeLocalDir
 ```
+# Compile dependencies
+```
+contrib/download_prerequisites
+```
 # Create a build directory
 ```
 mkdir build
