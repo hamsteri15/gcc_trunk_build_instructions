@@ -12,6 +12,7 @@ mkdir build
 cd build
 
 #Configure the build, notice the prefix and suffix
+
 ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/usr/local/gcc-12.0.0 --enable-checking=release --enable-languages=c,c++,fortran --disable-multilib --program-suffix=-12.0
 
 #Compile
